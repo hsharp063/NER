@@ -1,0 +1,265 @@
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+div {
+display: block;
+}
+
+.clear{
+	clear:both;
+}
+
+/*----------------------*/
+
+
+/*#shell {
+background-image: url(images/bg.jpg);
+background-repeat: repeat-x;
+}
+
+#shell, #wrapper {
+position: relative;
+background-position: top;
+}
+
+#wrapper {
+margin: 0;
+width: 950px;
+background-image: url(images/contentbg.jpg);
+background-repeat: repeat-y;
+}
+
+#container {
+background-image: url(images/content.jpg);
+background-position: top;
+background-repeat: no-repeat;
+min-height: 863px;
+height: 863px;
+}*/
+
+
+#header{
+	background-image: url(images/wave925Logo.png);
+	height:250px;
+	width:925px;
+	float:right;
+}
+
+#header-text
+{
+font-family: 'Source Sans Pro', sans-serif;
+color: #380000;
+text-align: center;
+font-size: 12pt;
+line-height: 1.5;
+font-weight: bold;
+top: 58px;
+left: 156px;
+position: relative;
+}
+
+#page{
+	width:925px;
+	margin:auto;
+	background-color:#650202;
+	background-image:url(images/pagebg.png);
+}
+
+#content{
+	color:white;
+	float:left;
+	width:675px;
+}
+
+#left-menu{
+	width:245px;
+	height:100%;
+	background-image:url(images/menuarea.png);
+	background-repeat:repeat-y;
+	background-color:#650202;
+	float:left;
+	position:relative;
+	left:-70px;
+}
+
+#menu {
+width: 800px;
+height: 55px;
+position: absolute;
+left: 185px;
+top: 201px;
+z-index: 999;
+}
+
+#mainmenu{
+	background-image:url(images/menuarea.png);
+	background-repeat:repeat-y;
+}
+
+#topNavigation a{
+	font-family: 'Archivo Black', sans-serif;
+	color:white;
+	text-decoration:none;
+}
+
+.level-one, .home, .current{
+	font-family: 'Open Sans', sans-serif;
+	padding-top:9px;
+	padding-bottom:5px;
+	padding-left:10px;
+	background-image:url(images/level_one.png);
+	background-repeat:repeat-x;
+	display: block;
+height: 27px;
+}
+
+#topNavigation{
+	width: 200px;
+padding-left: 23px;
+	padding-top:10px;
+}
+
+.menu-image{
+padding-top: 10px;
+padding-left: 22px;
+}
+
+.level-two, .level-two-current{
+	padding-top:6px;
+	padding-bottom:4px;
+	padding-left:15px;
+	background-image:url(images/level-two-menu-bg.png);
+	background-repeat:repeat-x;
+	color:#48300f;
+	height:25px;
+}
+
+.level-three,.level-three-current{
+		padding-top:6px;
+	padding-bottom:4px;
+	padding-left:17px;
+	background-image:url(images/level-three-menu-bg.png);
+	background-repeat:repeat-x;
+	color:white;
+	height:25px;
+}
+
+body{
+	background-color:#b85400;
+}
+
+
+/*--------------Footer------------*/
+#footer {
+clear: both;
+font-size: 12px;
+color: white;
+background-image: url(images/wave925bottom.png);
+overflow: hidden;
+	height:300px;
+	width:925px;
+	float:right;
+}
+
+#foot-address
+{
+	font-family: 'Source Sans Pro', sans-serif;
+color: black;
+text-align: center;
+font-size: 12pt;
+line-height: 1.5;
+font-weight: bold;
+top: 151px;
+left: 156px;
+position: relative;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* EDITOR PROPERTIES - PLEASE DON'T DELETE THIS LINE TO AVOID DUPLICATE PROPERTIES */
